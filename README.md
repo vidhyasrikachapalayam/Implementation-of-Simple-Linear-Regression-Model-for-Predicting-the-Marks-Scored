@@ -27,7 +27,7 @@ Developed by: VIDHYASRI.K
 RegisterNumber:  212222230170
 */
 ```
-
+```
 import numpy as np
 import pandas as pd
 from sklearn.metrics import mean_absolute_error,mean_squared_error
@@ -79,7 +79,7 @@ mae=mean_absolute_error(Y_test,Y_pred)
 print('MAE = ',mae)
 rmse=np.sqrt(mse)
 print("RMSE= ",rmse)
-
+```
 
 ## Output:
 ## 1. df.head()
