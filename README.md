@@ -1,4 +1,4 @@
-# EX 1 Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
+# EX 2 Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
 
 ## AIM:
 To write a program to predict the marks scored by a student using the simple linear regression model.
@@ -57,7 +57,7 @@ Y_pred =reg.predict(X_test)
 print(Y_pred)
 print(Y_test)
 
-#Graph plot for training data
+# Graph plot for training data
 plt.scatter(X_train,Y_train,color='blue')
 plt.plot(X_train,reg.predict(X_train),color='purple')
 plt.title("Hours vs Scores(Training set)")
@@ -65,7 +65,7 @@ plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
 
-#Graph plot for test data
+# Graph plot for test data
 plt.scatter(X_test,Y_test,color='red')
 plt.plot(X_train,reg.predict(X_train),color='purple')
 plt.title("Hours vs Scores(Testing set)")
